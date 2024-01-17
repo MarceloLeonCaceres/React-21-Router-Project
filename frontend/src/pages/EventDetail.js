@@ -1,9 +1,9 @@
-import { Link, useLoaderData, json } from "react-router-dom";
+import { Link, useRouteLoaderData, json } from "react-router-dom";
 
 import EventItem from '../components/EventItem.js';
 
 function EditDetailPage() {
-  const data = useLoaderData();
+  const data = useRouteLoaderData('detalle-evento');
   const evento = data.event;
 
   return (
