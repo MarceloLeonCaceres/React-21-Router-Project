@@ -1,11 +1,1 @@
-{
-  "events": [
-    {
-      "id": "e1",
-      "title": "A dummy event",
-      "date": "2023-02-22",
-      "image": "https://blog.hubspot.de/hubfs/Germany/Blog_images/Optimize_Marketing%20Events%20DACH%202021.jpg",
-      "description": "Join this amazing event and connect with fellow developers."
-    }
-  ]
-}
+{"events":[{"title":"Nuevo evento","image":"https://www.google.com/imgres?imgurl=https%3A%2F%2Ffotografias.lasexta.com%2Fclipping%2Fcmsimages01%2F2023%2F06%2F15%2F33A04DA0-D61E-44F5-8581-2E03027F8A46%2Fannecy-francia_98.jpg%3Fcrop%3D2119%2C1192%2Cx0%2Cy31%26width%3D1900%26height%3D1069%26optimize%3Dhigh%26format%3Dwebply&tbnid=jsVtDyXMan-teM&vet=12ahUKEwip9Oe4tOWDAxUdGGIAHWmfBAgQMygBegQIARBN..i&imgrefurl=https%3A%2F%2Fwww.lasexta.com%2Fviajestic%2Fcurioso%2Fannecy-pueblo-alpino-francia-conocido-como-venecia-saboya_20230615648afd5dea11350001fededc.html&docid=bnQUe0kWJ1oVQM&w=1900&h=1069&q=venecia%20de%20francia&hl=en&authuser=0&ved=2ahUKEwip9Oe4tOWDAxUdGGIAHWmfBAgQMygBegQIARBN","date":"2024-01-18","description":"Reunión en Annecy","id":"607b1407-101b-4cb6-a13e-73cce342bdee"},{"id":"e1","title":"A dummy event","date":"2023-02-22","image":"https://blog.hubspot.de/hubfs/Germany/Blog_images/Optimize_Marketing%20Events%20DACH%202021.jpg","description":"Join this amazing event and connect with fellow developers."}]}
