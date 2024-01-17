@@ -20,7 +20,9 @@ export async function loader() {
 
   if (!response.ok) {
     // return { isError: true, message: 'No pudo traer los eventos.'};
-    throw {message: 'No pudo traer los eventos'};
+    throw new Response(JSON.stringify({ message: 'Could not fetch events.'}), {
+      status: 500,
+    });
   } else {
     return response;
   }
