@@ -10,7 +10,8 @@ function ErrorPage() {
   let message = "Algo salió mal!";
 
   if (error.status === 500) {
-    message = JSON.parse(error.data).message;
+    // message = JSON.parse(error.data).message;
+    message = error.data.message;
   }
   if (error.status === 404) {
     title = "No encontramos la página";
