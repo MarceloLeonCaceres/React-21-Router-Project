@@ -18,7 +18,9 @@ function EventsPage() {
 export default EventsPage;
 
 async function loadEvents() {
-  const response = await fetch("http://localhost:8080/events");
+  const url_webapi = "https://localhost:7111/api/Evento";
+  const url_dummy_backend = "http://localhost:8080/events"
+  const response = await fetch(url_dummy_backend);
 
   if (!response.ok) {
     return json({ message: "Could not fetch events." }, { status: 500 });
